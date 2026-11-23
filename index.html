@@ -855,6 +855,16 @@ body{background:var(--coal);color:var(--ink)}
 .vband.vbg img{opacity:.2;filter:saturate(.8);animation-duration:30s}
 .vband.vbg img{opacity:.17}
 #page-actualidad .vband.vbg img,#page-contacto .vband.vbg img{opacity:.12}
+
+/* contraste: sobre fondo claro, letra oscura; sobre fondo oscuro, letra clara */
+:root{--gold:#7E602B;--gold-ink:#7E602B;--gold-2:#7E602B;--ink-3:rgba(23,23,28,.66)}
+.clist a,.help-list a,.help-list .help-btn,.help .note a,.check a,.opt,.field input,.field textarea,.field select,
+.ftabs [role=tab]:hover,.ftabs [role=tab][aria-selected="true"]{color:var(--ink)}
+.clist a{border-bottom-color:rgba(23,23,28,.3)}
+.clist a:hover,.sec-contact .btn:hover{border-color:var(--ink)}
+.field input::placeholder,.field textarea::placeholder{color:rgba(23,23,28,.5)}
+.legal a.btn{color:var(--ink);text-decoration:none}
+.legal a.btn-gold{color:#17171C}
 </style>
 </head>
 <body>
